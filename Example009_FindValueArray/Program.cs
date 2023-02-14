@@ -53,9 +53,10 @@ int value = Convert.ToInt32(Console.ReadLine());
 
 if (findValue(array, value) != (-1))
 {
-    Console.WriteLine("Искомое значение: "+value+" находится по индексу "+findValue(array, value));
+    Console.WriteLine("Искомое значение: " + value + " находится по индексу " + findValue(array, value));
 }
 else
 {
-    Console.WriteLine("Искомое значение: " + value + " НЕ найдено!");
+    Console.WriteLine("Искомое значение : " + value + " НЕ найдено!");
 }
+
